@@ -1,0 +1,104 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	width: 1366px;
+	height: 100%;
+}
+header {
+	height: 103px;
+	width: 100%px;
+	padding: 0px 80px;
+	box-shadow: 0px 0px 4px 0px lightgray;
+}
+
+header img {
+	float: left;
+	margin-top: 5px;
+}
+.head_form{
+	width: 500px;
+    height: 73px;
+	float: right;
+	padding-top: 30px;
+}
+.head_form form{
+	width: 487px;
+	height: 45px;
+	border: 1px solid gainsboro;
+	
+}
+.head_form select{
+	width: 14%;
+	height: 45px;
+	line-height: 60px;
+    color: gray;
+    border: none;
+    float: left;
+    padding-left: 15px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.head_form .inpt{
+	height: 44px;
+	float: left;
+	border: none;
+	font-weight: bold;
+}
+.head_form .btn{
+	width: 78px;
+	height: 45px;
+	background: url(../img/logo2.png) no-repeat;
+	float: right;
+}
+
+nav{
+	width: 100%;
+	height: 77px;
+	line-height: 77px;
+	border-bottom: 5px solid #959595;
+	
+}
+nav ul{
+	width: 85%;
+	margin: 0px auto;
+}
+nav ul li{
+	float: left;
+	width: 119px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+
+}
+nav ul li a{
+	width: 119px;
+	height: 72px;
+    display: block;
+	color: black;
+	text-align: center;
+}
+nav ul li a:hover{
+	border-bottom: 5px solid #9CE01B;
+	color: #9CE01B;
+}
+.nav_a{
+	float: right;
+	margin-right: 92px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+
+}
+.nav_a a{
+	color: black;
+	margin-right: 10px;
+}
